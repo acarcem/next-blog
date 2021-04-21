@@ -6,4 +6,7 @@
     .site-container{
         @apply max-w-2xl mx-auto px-4
     }
+    .site-4xl-container{
+       @apply  max-w-4xl mx-auto mt-20 px-4
+    }
 }

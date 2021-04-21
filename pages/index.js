@@ -26,7 +26,10 @@ function HomePage() {
         accident, sometimes on purpose (injected humour and the like).
       </p>
     </div>
-    <img src="/image.jpg" className="mt-10"/>
+    <div  className="site-4xl-container mt-20">
+    <img src="/image.jpg" alt=""/>
+    </div>
+  
     </div>
   )
 }
