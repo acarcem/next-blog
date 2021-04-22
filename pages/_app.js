@@ -7,7 +7,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <Auth0Provider
     domain="dev-acf50tly.eu.auth0.com"
-    clientId="DK4EWRW49QDxupwJxC6LJBsnyf1zqVaM"
+   /* clientId="DK4EWRW49QDxupwJxC6LJBsnyf1zqVaM"*/
+   clientId={process.env.NEXT_PUBLIC_AUTH0_CLIENT_ID}
     redirectUri={process.env.NEXT_PUBLIC_URL}
   >
   
