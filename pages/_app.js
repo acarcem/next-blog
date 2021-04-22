@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <Auth0Provider
     domain="dev-acf50tly.eu.auth0.com"
-    clientId="process.env.NEXT_PUBLIC_AUTH0_CLIENT_ID"
+    clientId="DK4EWRW49QDxupwJxC6LJBsnyf1zqVaM"
     redirectUri={process.env.NEXT_PUBLIC_URL}
   >
   
@@ -19,7 +19,8 @@ function MyApp({ Component, pageProps }) {
       <Footer />
     </div>
     </Auth0Provider>
+   
   )
-}
+ }
 
 export default MyApp
